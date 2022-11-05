@@ -49,7 +49,7 @@ public class Cambio extends Thread{
                 g.fillOval((f.getWidth()/2)+10, 150, 40, 40);
                 g.fillOval((f.getWidth()/2)-20, 200, 40, 60);
 
-                Font ff = new Font("Chiller",Font.CENTER_BASELINE,30);
+                Font ff = new Font("Chiller",Font.BOLD,40);
                 g.setFont(ff);
                 g.setColor(new Color(r.nextInt(255),r.nextInt(255),r.nextInt(255)));
                 g.drawString(cadena,f.getWidth()/2-70,440);
